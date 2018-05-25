@@ -1,0 +1,183 @@
+*{
+	box-sizing: border-box;
+}
+a:link,a:hover {
+	color: inherit;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.header{
+	background-color: #009788;
+	/*height: 10vw;*/
+}
+.profile-div{
+	margin: 0 auto;
+	height: 80px;
+}
+.profile-img{
+	padding: 2%;
+	height: 100%;
+	/*width: 90%;*/
+	border-radius: 100%;
+}
+.tag{
+	color: #FFFFFF;
+	padding: 3%;
+	padding-right: 10%; 
+	text-align: end;
+}
+/*end of header*/
+
+
+
+
+/*index.html*/
+.index-body{
+	background-color: #F7F9FA;
+}
+.chat-header{
+	height: 80vh;
+	overflow-y: scroll;
+}
+.block{
+	/*height: 80px;*/
+	background: #EEEEEE;
+	padding: 2%;
+	margin :2%;
+}
+.media{
+	height: 60px;
+	margin: 0 auto;
+	padding: 0;
+}
+.media-image{
+	max-height: 100%;
+	border-radius: 100%;
+}
+.unread{
+	background: #009788;
+}
+.time-padding{
+	padding-right: 50px;
+}
+.welcome{
+	height: 80vh;
+	margin: 0 auto;
+	background-color: #F7F9FA;
+}
+.welcome-img{
+	max-height: 100%;
+}
+
+@media screen and (max-width: 992px){
+	.tag{
+		font-size: 5vw;
+	}
+	.full-chat-box{
+		display: block;
+	}
+	.welcome{
+		display: none;
+	}
+}
+/*end chat header*/
+
+
+
+
+/*chat.html*/
+
+.message-profile-div{
+	margin: 0 auto;
+	height: 60px;
+}
+.message-profile-img{
+	padding: 2%;
+	height: 100%;
+	/*width: 90%;*/
+	border-radius: 50%;
+}
+.header-text-color{
+	color: #F8F8FA;
+}
+/*end chat header*/
+
+/*start chat messages*/
+.text-div-width{
+	max-width: 75vw;
+}
+.my-text{
+	background-color: #E0F6C8;
+	border-radius: 4px;
+	padding: 1%;
+	margin-top: 2px;
+	clear: both;
+}
+.persons-text{
+	background-color: #F5F5F5;
+	border-radius: 4px;
+	padding: 1%;
+	margin-top: 2px;
+	clear: both;
+}
+.messages{
+	background-image: url("../img/background.png");
+	overflow-y: scroll;
+	position: fixed;
+	height: 75vh;
+	margin-top: 69px;
+}
+/*end chat messages*/
+
+
+/*group.html*/
+/*start group messages*/
+.naman{
+	color: #CFB358;
+}
+.pragnesh{
+	color: #8DBDA3;
+}
+/*start input box*/
+.input-box{
+	background-color: #EEEEEE;
+	padding: 2vw;
+	border-radius: 12px;
+}
+/*end input box*/
+
+
+
+/*upload.html*/
+.upload-background{
+	background-image: url("../img/background.png");
+}
+.card-style{
+	margin-top: 5px;
+	width: 20rem;
+}
+@media(max-width: 340px){
+	.card-style{
+		width: 95vw;
+	}
+}
+.card-img{
+	padding: 2px;
+	border-radius: 100%;
+}
+.btn{
+	background-color: #009788;
+}
+
+/*for scrollbar*/
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-track-piece{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #CBCBCB;
+}
